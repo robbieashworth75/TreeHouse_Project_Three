@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  margin-top: 0;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 1em;
+  font-family: "Merriweather", serif;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+.top_portion {
+  padding: 10px 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.top_portion h1 {
+  font-size: 1em;
+}
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+}
+fieldset {
+  border: 0;
+}
+.copyright {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: black;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+}
